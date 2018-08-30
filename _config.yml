@@ -1,0 +1,19 @@
+title:             Fernandinho
+email:             fernandosvrosa@gmail.com
+description:       Blog de programação e tecnologia 
+author:            Fernando da Silva Rosa
+baseurl:           ""
+url:               ""
+
+# Social Profiles
+twitter_username:  EuFernandinho
+github_username:   fernandosvrosa
+facebook_username: fernandosvrosa
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
